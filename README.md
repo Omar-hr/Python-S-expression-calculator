@@ -2,7 +2,7 @@
 
 This is a command line program that functions as a simple calculator capable of doing two operations: Addition and Multiplication. It takes an expression as an argument and prints the result after evaluating, it also handles nested operations.
 
-The program is implemented in Python, and it includes a simplified S-expression parser.
+The Code is implemented in Python, and it includes a simplified S-expression parser.
 
 Syntax:
 ===========
