@@ -8,6 +8,7 @@ Syntax:
 ===========
 
 The program takes the input argument as a string and can handle two kinds of arguments:
+
 1- Single integer (for example: 45): the program will output the same integer.
 
 2- An expression: should be in the following format `(Function Expression Expression)` The expression will be evaluated and the result will be printed.
