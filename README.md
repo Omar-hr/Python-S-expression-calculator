@@ -7,14 +7,14 @@ The Code is implemented in Python, and it includes a simplified S-expression par
 Syntax:
 ===========
 
-The program takes the input argument as a string and can handle two kinds of arguments:
-
+The program takes the input argument as a string and can handle two kinds of arguments:  
 1- Single integer (for example: 45): the program will output the same integer.
 
 2- An expression: should be in the following format `(Function Expression Expression)` The expression will be evaluated and the result will be printed.
-`Function` can be `add` or `multiply`
-`Expression` can be another function call or an integer
-A function call should always be delimited by parenthesis `(` and `)`
+
+`Function` can be `add` or `multiply`.  
+`Expression` can be another function call or an integer.  
+A function call should always be delimited by parenthesis `(` and `)`.  
 The program is capable of evaluating any number of nested functions in an expression.
 
 How to use:
@@ -52,7 +52,7 @@ $ ./sCalculate "(add (add 5 (multiply 4 (add 2 2))) 7)"
 Assumptions:
 ============
 
-- The program doesn't evaluate negative numbers.
-- Parenthesis will always be balanced.
-- Only the `add` and `multiply` functions will be called.
-- Extra white spaces are ignored
+- The program doesn't evaluate negative numbers.  
+- Parenthesis will always be balanced.  
+- Only the `add` and `multiply` functions will be called.  
+- Extra white spaces are ignored.  
